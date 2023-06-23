@@ -1,3 +1,8 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 body {
   font-family: Roboto, sans-serif;
   font-weight: bold;
@@ -22,11 +27,34 @@ body {
 .list {
   list-style: none;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: block;
+}
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
 /* Header */
 
 .header {
 }
 .header-naw {
+  display: flex;
 }
 .logo-link {
   font-family: "Raleway", sans-serif;
@@ -39,12 +67,16 @@ body {
   text-transform: uppercase;
 
   color: var(--logo-color);
+  margin-right: 76px;
 }
 .accent {
   color: var(--accent-color);
 }
 .list {
   list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 .header-item {
   font-style: normal;
@@ -67,6 +99,9 @@ body {
   font-style: normal;
 }
 .address-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 .address-item {
   font-weight: 400;
@@ -88,6 +123,7 @@ body {
 
 /* Main */
 .page {
+  width: 1128px;
 }
 /* Section1 */
 .section-one {
@@ -103,6 +139,10 @@ body {
   letter-spacing: 0.02em;
 
   color: var(--white-color);
+  width: 496px;
+  padding-bottom: 292px;
+  padding-top: 188px;
+  margin: 0 auto;
 }
 .button {
   font-family: Roboto, sans-serif;
@@ -121,8 +161,13 @@ body {
 /* Section2 */
 
 .page-list {
+  display: flex;
+  padding-left: 156px;
+  padding-right: 156px;
+  justify-content: space-between;
 }
 .page-item {
+  width: 264px;
 }
 .page-subtitle {
   font-style: normal;
@@ -133,6 +178,7 @@ body {
   letter-spacing: 0.02em;
 
   color: var(--accent-color);
+  margin-bottom: 8px;
 }
 .page-text {
   font-style: normal;
@@ -166,6 +212,8 @@ body {
 /* Section4 */
 .section-four {
   background-color: var(--footer-color);
+
+  padding-bottom: 120px;
 }
 .team-list {
 }
@@ -241,4 +289,21 @@ body {
   color: var(--primary-color);
 
   letter-spacing: 0.02em;
+}
+.section-two {
+}
+.flex-section-two {
+  display: flex;
+  width: 264px;
+  padding: 120px 0;
+  gap: 24px;
+}
+.section-three {
+  padding-bottom: 120px;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  padding: 24 0;
+  justify-content: space-between;
 }

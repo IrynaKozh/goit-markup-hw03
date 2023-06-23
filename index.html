@@ -10,42 +10,50 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,500;1,500&family=Montserrat:wght@400;700&family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-
+    <link
+      href="
+https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
+"
+      rel="stylesheet"
+    />
     <title>Document</title>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <body>
+  <body class="container">
     <header class="header">
-      <nav class="header-naw">
-        <a class="logo-link link" href="./index.html"
-          >Web<span class="accent">Studio</span></a
-        >
-        <ul class="list">
-          <li class="header-item">
-            <a class="header-link link" href="./index.html">Studio</a>
-          </li>
-          <li class="header-item">
-            <a class="header-link link" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li class="header-item">
-            <a class="header-link link" href="">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-      <address class="address">
-        <ul class="address-list list">
-          <li class="adress-item">
-            <a class="address-link link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="adress-item">
-            <a class="address-link link" href="tel:+110001111111"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+      <div class="header-container">
+        <nav class="header-naw">
+          <a class="logo-link link" href="./index.html"
+            >Web<span class="accent">Studio</span></a
+          >
+          <ul class="list">
+            <li class="header-item">
+              <a class="header-link link" href="./index.html">Studio</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link link" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+
+        <address class="address">
+          <ul class="address-list list">
+            <li class="adress-item">
+              <a class="address-link link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="adress-item">
+              <a class="address-link link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
 
     <main class="page">
@@ -55,42 +63,44 @@
         <button class="button" type="button">Order Service</button>
       </section>
       <!-- Section2 -->
-      <section>
-        <h2 hidden>Options</h2>
-        <ul class="page-list list">
-          <li class="page-item">
-            <h3 class="page-subtitle">Strategy</h3>
-            <p class="page-text">
-              Our goal is to identify the business problem to walk away with the
-              perfect and creative solution.
-            </p>
-          </li>
+      <div class="flex-section-two">
+        <section class="section-two">
+          <h2 hidden>Options</h2>
+          <ul class="page-list list">
+            <li class="page-item">
+              <h3 class="page-subtitle">Strategy</h3>
+              <p class="page-text">
+                Our goal is to identify the business problem to walk away with
+                the perfect and creative solution.
+              </p>
+            </li>
 
-          <li class="page-item">
-            <h3 class="page-subtitle">Punctuality</h3>
-            <p class="page-text">
-              Bring the key message to the brand's audience for the best price
-              within the shortest possible time.
-            </p>
-          </li>
-          <li class="page-item">
-            <h3 class="page-subtitle">Diligence</h3>
-            <p class="page-text">
-              Research and confirm brands that present the strongest digital
-              growth opportunities and minimize risk.
-            </p>
-          </li>
-          <li class="page-item">
-            <h3 class="page-subtitle">Technologies</h3>
-            <p class="page-text">
-              Design practice focused on digital experiences. We bring forth a
-              deep passion for problem-solving.
-            </p>
-          </li>
-        </ul>
-      </section>
+            <li class="page-item">
+              <h3 class="page-subtitle">Punctuality</h3>
+              <p class="page-text">
+                Bring the key message to the brand's audience for the best price
+                within the shortest possible time.
+              </p>
+            </li>
+            <li class="page-item">
+              <h3 class="page-subtitle">Diligence</h3>
+              <p class="page-text">
+                Research and confirm brands that present the strongest digital
+                growth opportunities and minimize risk.
+              </p>
+            </li>
+            <li class="page-item">
+              <h3 class="page-subtitle">Technologies</h3>
+              <p class="page-text">
+                Design practice focused on digital experiences. We bring forth a
+                deep passion for problem-solving.
+              </p>
+            </li>
+          </ul>
+        </section>
+      </div>
       <!-- Section3 -->
-      <section>
+      <section class="section-three">
         <h2 class="subtitle">What are we doing</h2>
         <ul class="img-list list">
           <li class="img-item">
