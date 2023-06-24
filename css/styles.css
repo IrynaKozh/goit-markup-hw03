@@ -162,8 +162,7 @@ img {
 
 .page-list {
   display: flex;
-  padding-left: 156px;
-  padding-right: 156px;
+
   justify-content: space-between;
 }
 .page-item {
@@ -179,6 +178,7 @@ img {
 
   color: var(--accent-color);
   margin-bottom: 8px;
+  text-align: center;
 }
 .page-text {
   font-style: normal;
@@ -189,6 +189,8 @@ img {
   letter-spacing: 0.02em;
 
   color: var(--primary-color);
+      text-align: center;
+    margin-bottom: 32px;
 }
 /* Section3 */
 .subtitle {
@@ -202,8 +204,11 @@ img {
   text-transform: capitalize;
 
   color: var(--accent-color);
+  margin-bottom: 72px;
 }
 .img-list {
+  display: flex;
+  gap: 24px;
 }
 .img-item {
 }
@@ -216,11 +221,14 @@ img {
   padding-bottom: 120px;
 }
 .team-list {
+  display: flex;
+  gap: 24px;
 }
 .team-item {
   background-color: var(--white-color);
 }
 .team-img {
+  margin-bottom: 32px;
 }
 /* Footer */
 .footer {
