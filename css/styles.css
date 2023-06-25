@@ -55,7 +55,6 @@ img {
 /* Header */
 
 .header {
-  width: 1128px;
   border-bottom: 1px solid #e7e9fc;
 }
 .header-naw {
@@ -129,7 +128,6 @@ img {
 
 /* Main */
 .page {
-  width: 1128px;
 }
 /* Section1 */
 .section-one {
@@ -248,7 +246,6 @@ img {
 .footer {
   background-color: var(--accent-color);
   padding: 100px 0;
-  width: 1128px;
 }
 .footer-link {
   font-family: "Raleway", sans-serif;
